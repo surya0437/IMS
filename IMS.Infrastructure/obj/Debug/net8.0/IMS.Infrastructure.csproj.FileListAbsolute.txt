@@ -15,3 +15,4 @@ C:\Asp dot net\IMS\IMS.Infrastructure\bin\Debug\net8.0\IMS.Models.pdb
 C:\Asp dot net\IMS\IMS.Infrastructure\obj\Debug\net8.0\IMS.Infr.A6A27735.Up2Date
 C:\Asp dot net\IMS\IMS.Infrastructure\bin\Debug\net8.0\IMS.Infrastructure.runtimeconfig.json
 C:\Asp dot net\IMS\IMS.Infrastructure\obj\Debug\net8.0\IMS.Infrastructure.genruntimeconfig.cache
+C:\Asp dot net\IMS\IMS.Infrastructure\obj\Debug\net8.0\IMS.Infrastructure.sourcelink.json

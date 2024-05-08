@@ -9,3 +9,4 @@ C:\Asp dot net\IMS\IMS.Models\obj\Debug\net8.0\IMS.Models.dll
 C:\Asp dot net\IMS\IMS.Models\obj\Debug\net8.0\refint\IMS.Models.dll
 C:\Asp dot net\IMS\IMS.Models\obj\Debug\net8.0\IMS.Models.pdb
 C:\Asp dot net\IMS\IMS.Models\obj\Debug\net8.0\ref\IMS.Models.dll
+C:\Asp dot net\IMS\IMS.Models\obj\Debug\net8.0\IMS.Models.sourcelink.json

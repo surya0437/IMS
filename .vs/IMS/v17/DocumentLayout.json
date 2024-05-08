@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Asp dot net\\IMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\views\\storeinfo\\allstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\views\\storeinfo\\allstore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\controllers\\storeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\controllers\\storeinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|c:\\asp dot net\\ims\\ims.web\\views\\storeinfo\\managestore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{188931AD-32EF-48D8-B800-9104974DCD6F}|IMS.web\\IMS.web.csproj|solutionrelative:ims.web\\views\\storeinfo\\managestore.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "IMS.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "IMS.web\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAqwGkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:47:59.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "IMS.web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "IMS.web\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:45:58.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "IMS.web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "IMS.web\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAUwHYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T13:44:54.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "IMS.web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "IMS.web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAAAAQBAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:42:51.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AllStore.cshtml",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Views\\StoreInfo\\AllStore.cshtml",
+              "RelativeDocumentMoniker": "IMS.web\\Views\\StoreInfo\\AllStore.cshtml",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Views\\StoreInfo\\AllStore.cshtml*",
+              "RelativeToolTip": "IMS.web\\Views\\StoreInfo\\AllStore.cshtml*",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:51:06.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageStore.cshtml",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Views\\StoreInfo\\ManageStore.cshtml",
+              "RelativeDocumentMoniker": "IMS.web\\Views\\StoreInfo\\ManageStore.cshtml",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Views\\StoreInfo\\ManageStore.cshtml",
+              "RelativeToolTip": "IMS.web\\Views\\StoreInfo\\ManageStore.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T12:47:19.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreInfoController.cs",
+              "DocumentMoniker": "C:\\Asp dot net\\IMS\\IMS.web\\Controllers\\StoreInfoController.cs",
+              "RelativeDocumentMoniker": "IMS.web\\Controllers\\StoreInfoController.cs",
+              "ToolTip": "C:\\Asp dot net\\IMS\\IMS.web\\Controllers\\StoreInfoController.cs",
+              "RelativeToolTip": "IMS.web\\Controllers\\StoreInfoController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:17:01.524Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

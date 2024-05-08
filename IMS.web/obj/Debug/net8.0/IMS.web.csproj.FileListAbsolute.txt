@@ -265,3 +265,4 @@ C:\Asp dot net\IMS\IMS.web\bin\Debug\net8.0\IMS.Utility.dll
 C:\Asp dot net\IMS\IMS.web\bin\Debug\net8.0\IMS.Infrastructure.pdb
 C:\Asp dot net\IMS\IMS.web\bin\Debug\net8.0\IMS.Models.pdb
 C:\Asp dot net\IMS\IMS.web\bin\Debug\net8.0\IMS.Utility.pdb
+C:\Asp dot net\IMS\IMS.web\obj\Debug\net8.0\IMS.web.sourcelink.json

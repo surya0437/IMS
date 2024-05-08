@@ -6,6 +6,9 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using IMS.Infrastructure.Services;
 using IMS.Models.Entity;
 using IMS.Infrastructure;
+using IMS.Infrastructure.IRepository;
+using IMS.Infrastructure.Repository.CRUD;
+using IMS.Infrastructure.Repository;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -30,13 +33,16 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 
+builder.Services.AddTransient(typeof(ICrudService<>), typeof(CrudService<>));
+builder.Services.AddTransient<IRawSqlRepository, RawSqlRepository>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 

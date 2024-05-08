@@ -236,7 +236,7 @@
                 <div id="sidebar-menu" class="sidebar-menu">
                     <ul>
                         <li><a href="index.html"><img src="~/assets/img/icons/dashboard.svg" alt="img"><span>Dashboard</span></a></li>
-                        
+                       
                         <li class="submenu">
                             <a href="javascript:void(0);" class=""><img src="~/assets/img/icons/users1.svg" alt="img"><span> Employee</span> <span class="menu-arrow"></span></a>
                             <ul style="display: none;">
@@ -254,7 +254,11 @@
                                 <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0"> <i class="bi bi-power"></i> Logout</button>
                             </form>
                         </li>
+                        <li class="nav-item">
+                            <a asp-area="Identity" asp-controller="StoreInfo" asp-action="AllStore">Store List</a>
+                        </li>
                     </ul>
+                    
                 </div>
             </div>
         </div>

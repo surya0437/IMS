@@ -9,3 +9,4 @@ C:\Asp dot net\IMS\IMS.Utility\obj\Debug\net8.0\IMS.Utility.dll
 C:\Asp dot net\IMS\IMS.Utility\obj\Debug\net8.0\refint\IMS.Utility.dll
 C:\Asp dot net\IMS\IMS.Utility\obj\Debug\net8.0\IMS.Utility.pdb
 C:\Asp dot net\IMS\IMS.Utility\obj\Debug\net8.0\ref\IMS.Utility.dll
+C:\Asp dot net\IMS\IMS.Utility\obj\Debug\net8.0\IMS.Utility.sourcelink.json
