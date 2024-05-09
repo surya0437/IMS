@@ -1,24 +1,29 @@
 ﻿using IMS.Infrastructure.IRepository;
 using IMS.Models.Entity;
+using IMS.web.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace IMS.web.Controllers
 {
-    [Authorize]
+   // [Authorize]
     public class StoreInfoController : Controller
     {
         private readonly ICrudService<StoreInfo> _storeCrudService;
+        private readonly UserManager<ApplicationUser> _userManager;
         public StoreInfoController(ICrudService<StoreInfo> storeCrudService)
         {
             _storeCrudService = storeCrudService;
         }
+
         public async Task<IActionResult> AllStore()
         {
             var storeInfoList = await _storeCrudService.GetAllAsync();
             return View(storeInfoList);
         }
 
+        [HttpGet]
 
         public async Task<IActionResult> ManageStore(int id)
         {
@@ -27,17 +32,20 @@ namespace IMS.web.Controllers
             {
                 storeInfo = await _storeCrudService.GetAsync(id);
             }
+
             return View(storeInfo);
         }
 
         [HttpPost]
         public async Task<IActionResult> ManageStore(StoreInfo storeInfo)
         {
-            if (storeInfo.Id > 0)
+            /*var userId = _userManager.GetUserId(HttpContext.User);*/
+            if (storeInfo.Id == 0)
             {
                 storeInfo.CreatedDate = DateTime.Now;
                 storeInfo.CreatedBy = "";
                 await _storeCrudService.InsertAsync(storeInfo);
+                TempData["success"] = "Data Added Successfully..";
             }
             else
             {
@@ -51,8 +59,9 @@ namespace IMS.web.Controllers
                 OrgStoreInfo.UpdatedDate = DateTime.Now;
                 OrgStoreInfo.UpdatedBy = storeInfo.UpdatedBy;
                 await _storeCrudService.UpdateAsync(storeInfo);
+                TempData["success"] = "Data Updated Successfully..";
             }
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(AllStore));
         }
 
 
