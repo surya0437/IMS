@@ -1,26 +1,21 @@
-﻿@if(TempData["success"] != null){
+﻿@if (TempData["success"] != null)
+{
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" asp-append-version="true" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
 
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script>
-        swal({
-            title: "Good job!",
-            text: @TempData["success"],
-            icon: "success",
-        });
-</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script>
+        toastr.success('@TempData["success"]')
+    </script>
+
 }
-
 
 @if (TempData["error"] != null)
 {
-
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" asp-append-version="true" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <script>
-        swal({
-            title: "Sorry!",
-            icon: "warning",
-            buttons: true,
-            dangerMode: true,
-        });
+        toastr.error('@TempData["error"]')
     </script>
 }

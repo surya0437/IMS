@@ -39,6 +39,13 @@ builder.Services.AddTransient<IRawSqlRepository, RawSqlRepository>();
 
 var app = builder.Build();
 
+using(var scope = app.Services.CreateScope())
+{
+    var service = scope.ServiceProvider;
+    await DataSeeding.InitilizeAsync(service);
+}
+
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

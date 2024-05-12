@@ -271,7 +271,7 @@
                         <div class="col-sm-12">
                             <h3 class="page-title">@ViewData["Title"]</h3>
                             <ul class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html">@ViewData["Title"]</a></li>
+                                <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
                                 @if(ViewData["SubTitle"] != "Dashboard"){
                                 <li class="breadcrumb-item active">@ViewData["SubTitle"]</li>
                                 }
@@ -286,24 +286,27 @@
     </div>
 
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/assets/js/jquery-3.6.0.min.js"></script>
+    <script src="~/assets/js/jquery-3.6.0.min.js" asp-append-version="true"></script>
 
-    <script src="~/assets/js/feather.min.js"></script>
+    <script src="~/assets/js/feather.min.js" asp-append-version="true"></script>
 
-    <script src="~/assets/js/jquery.slimscroll.min.js"></script>
+    <script src="~/assets/js/jquery.slimscroll.min.js" asp-append-version="true"></script>
 
-    <script src="~/assets/js/jquery.dataTables.min.js"></script>
-    <script src="~/assets/js/dataTables.bootstrap4.min.js"></script>
+    <script src="~/assets/js/jquery.dataTables.min.js" asp-append-version="true"></script>
+    <script src="~/assets/js/dataTables.bootstrap4.min.js" asp-append-version="true"></script>
 
-    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/bootstrap.bundle.min.js" asp-append-version="true"></script>
 
-    <script src="~/assets/plugins/apexchart/apexcharts.min.js"></script>
-    <script src="~/assets/plugins/apexchart/chart-data.js"></script>
+    <script src="~/assets/plugins/apexchart/apexcharts.min.js" asp-append-version="true"></script>
+    <script src="~/assets/plugins/apexchart/chart-data.js" asp-append-version="true"></script>
 
-    <script src="~/assets/js/script.js"></script>
+    <script src="~/assets/js/script.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" asp-append-version="true"></script>
+s
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 

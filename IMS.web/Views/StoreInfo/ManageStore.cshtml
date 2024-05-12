@@ -1,9 +1,15 @@
 ﻿@model IMS.Models.Entity.StoreInfo
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    ViewData["SubTitle"] = "Dashboard";
-        ViewData["Title"] = "Update Store";
-    ViewData["Title"] = "Add New Store";
+    ViewData["Title"] = "Store Management";
+    if (Model.Id > 0)
+    {
+        ViewData["SubTitle"] = "Update Store";
+    }
+    else
+    {
+        ViewData["SubTitle"] = "Add Store";
+    }
 }
 
 <div class="card">
@@ -47,9 +53,21 @@
             </div>
             </div>
             <div class="col-lg-12">
-                <button id="" type="submit" class="w-100 btn btn-lg btn-primary">Add User</button>
+                   @if (Model.Id > 0)
+                    {
+                        <button id="" type="submit" class="w-100 btn btn-lg btn-primary">Update Store</button>
+                    }
+                    else
+                    {
+                        <button id="" type="submit" class="w-100 btn btn-lg btn-primary">Add Store</button>
+                    }
             </div>
         </div>
             </form>
     </div>
 </div>
+
+
+@section Scripts {
+    <partial name="_AlertLayout" />
+}

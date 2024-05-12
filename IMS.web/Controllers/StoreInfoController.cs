@@ -16,7 +16,6 @@ namespace IMS.web.Controllers
         {
             _storeCrudService = storeCrudService;
         }
-
         public async Task<IActionResult> AllStore()
         {
             var storeInfoList = await _storeCrudService.GetAllAsync();
@@ -57,13 +56,19 @@ namespace IMS.web.Controllers
                 OrgStoreInfo.RegistrationNo = storeInfo.RegistrationNo;
                 OrgStoreInfo.IsActive = storeInfo.IsActive;
                 OrgStoreInfo.UpdatedDate = DateTime.Now;
-                OrgStoreInfo.UpdatedBy = storeInfo.UpdatedBy;
-                await _storeCrudService.UpdateAsync(storeInfo);
+                OrgStoreInfo.UpdatedBy = "";
+                await _storeCrudService.UpdateAsync(OrgStoreInfo);
                 TempData["success"] = "Data Updated Successfully..";
             }
             return RedirectToAction(nameof(AllStore));
         }
 
-
+        public async Task<IActionResult> RemoveStudent(int id)
+        {
+            var storeInfo = await _storeCrudService.GetAsync(id);
+            _storeCrudService.Delete(storeInfo);
+            TempData["error"] = "Data Deleted Sucessfully";
+            return RedirectToAction("AllStore");
+        }
     }
 }
