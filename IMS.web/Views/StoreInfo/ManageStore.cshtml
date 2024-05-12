@@ -1,0 +1,73 @@
+﻿@model IMS.Models.Entity.StoreInfo
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Store Management";
+    if (Model.Id > 0)
+    {
+        ViewData["SubTitle"] = "Update Store";
+    }
+    else
+    {
+        ViewData["SubTitle"] = "Add Store";
+    }
+}
+
+<div class="card">
+    <div class="card-body">
+        <form class="login-userset" id="account" method="post" asp-controller="StoreInfo" asp-action="ManageStore">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="form-group">
+                    <label asp-for="StoreName">Store Name</label>
+                    <input asp-for="StoreName" class="form-control" aria-required="true" />
+                    <span asp-validation-for="StoreName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="form-group">
+                        <label asp-for="Address">Address</label>
+                        <input asp-for="Address" class="form-control" aria-required="true" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="form-group">
+                    <label asp-for="PhoneNumber">Phone Number</label>
+                    <input asp-for="PhoneNumber" class="form-control" aria-required="true" />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 col-12">
+                <div class="form-group">
+                    <label asp-for="PanNo">Pan Number</label>
+                    <input asp-for="PanNo" class="form-control" aria-required="true" />
+                    <span asp-validation-for="PanNo" class="text-danger"></span>
+                </div>
+            </div>
+           
+            <div class="col-lg-3 col-sm-6 col-12">
+            <div class="form-group">
+                    <label asp-for="RegistrationNo">Registration Number</label>
+                    <input asp-for="RegistrationNo" class="form-control" aria-required="true" />
+                    <span asp-validation-for="RegistrationNo" class="text-danger"></span>
+            </div>
+            </div>
+            <div class="col-lg-12">
+                   @if (Model.Id > 0)
+                    {
+                        <button id="" type="submit" class="w-100 btn btn-lg btn-primary">Update Store</button>
+                    }
+                    else
+                    {
+                        <button id="" type="submit" class="w-100 btn btn-lg btn-primary">Add Store</button>
+                    }
+            </div>
+        </div>
+            </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    <partial name="_AlertLayout" />
+}
